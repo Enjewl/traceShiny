@@ -29,7 +29,7 @@ upload_data_box_ui2 <- function(id) {
                radioGroupButtons(
                  inputId = "DataUpload",
                  label = h5(HTML('<h5 style = "text-align:justify;color:#000000; margin-top:-50px;">Select Upload Method')),
-                 choices = c("fsa",
+                 choices = c("fsa", "fastq",
                              "Use Example"),
                  individual = TRUE,
                  checkIcon = list(
